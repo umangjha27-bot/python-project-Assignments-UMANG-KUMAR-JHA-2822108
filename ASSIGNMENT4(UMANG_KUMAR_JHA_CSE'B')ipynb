@@ -1,0 +1,96 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOOCdi15BbUClnGx6XrQvBm",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/umangjha27-bot/python-project-Assignments-UMANG-KUMAR-JHA-2822108/blob/main/ASSIGNMENT4(UMANG_KUMAR_JHA_CSE'B')ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "CD_ofJxjkjlX"
+      },
+      "outputs": [],
+      "source": [
+        "#even and odd\n",
+        "i = int(input(\"enter the numbers you want in your list: \"))\n",
+        "list = []\n",
+        "even = []\n",
+        "odd = []\n",
+        "for i in range(i):\n",
+        "    num = int(input(\"Enter a number: \"))\n",
+        "    list.append(num)\n",
+        "for num in list:\n",
+        "    if num % 2 ==0:\n",
+        "        even.append(num)\n",
+        "    else:\n",
+        "        odd.append(num)\n",
+        "print(\"The  original list is:\", list)\n",
+        "print(\"The even numbers list is:\", even)\n",
+        "print(\"The odd number list is:\", odd)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#max and min\n",
+        "i = 0\n",
+        "list = []\n",
+        "while True:\n",
+        "    num = int(input(\"Enter a number: \"))\n",
+        "    list.append(num)\n",
+        "    i += 1\n",
+        "    if i >= 10:\n",
+        "        break\n",
+        "max = list[0]\n",
+        "min = list[0]\n",
+        "for i in range(0, len(list)):\n",
+        "    if list[i] > max:\n",
+        "        max = list[i]\n",
+        "    if list[i] < min:\n",
+        "        min = list[i]\n",
+        "print(\"The maximum number is:\", max)\n",
+        "print(\"The minimum number is:\", min)\n",
+        "print(\"The list is:\", list)"
+      ],
+      "metadata": {
+        "id": "zdlcyKqfkuVU"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#remove duplica"
+      ],
+      "metadata": {
+        "id": "Nm0PeKFhk0Cw"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
